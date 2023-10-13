@@ -208,7 +208,7 @@ def menu():
         #       chk()
                 x = ("sex")
                 if x == ("sex"):
-                        print(' \033[1;31m[1] File cloning\033[1;36m\n [2] Create ids file\033[1;32m\n [3] Public cloning\033[1;33m\n [4] Random number cloning\033[1;34m\n [5] Random gmail crack\033[1;35m\n [6] How To Use Video\033[1;36m\n [0] Exit menu\033[1;37m')
+                        print(' \033[1;31m[1] File cloning\033[1;36m\n [2] Public cloning\033[1;33m\n [3] Random number cloning\033[1;34m\n [4] Random gmail crack\033[1;35m\n [5] How To Use Video\033[1;36m\n [6] Exit menu\033[1;37m')
                         linex()
                         xd=input(' \033[1;33mChoose an option: \033[1;33m')
                         if xd in ['1','01']:
@@ -270,11 +270,8 @@ def menu():
                                 input(' Press enter to back ')
                                 os.system('python Rakib-X.py')
                         elif xd in ['2','02']:
-                                import dump
-                                dump.Main()
-                        elif xd in ['3','03']:
                                 public()
-                        elif xd in ['4','04']:
+                        elif xd in ['3','03']:
                                 clear()
                                 print(' \033[1;31m[1] Pakistan \033[1;32m\n [2] Bangladesh \033[1;33m\n [3] Gmail \033[1;34m\n [0] Back menu')
                                 linex()
@@ -287,7 +284,7 @@ def menu():
                                         gmail()
                                 else:
                                         menu()
-                        elif xd in ['5','05']:
+                        elif xd in ['4','04']:
                                 gmail()
                         elif xd in ['6','06']:
                                 wx=('Dsj9JMWoixk4Qsje0Ng3nA')
@@ -296,7 +293,7 @@ def menu():
                                 os.system('xdg-open https://t.me/EHC99EMRAN');menu()
                         elif xd in ['8','08']:
                                 os.system('xdg-open bikash');menu()
-                        elif xd in ['0','00']:
+                        elif xd in ['6','06']:
                                 exit(' Thanks for use 🥰 ')
                         else:
                                 exit(' Option not found in menu...')
